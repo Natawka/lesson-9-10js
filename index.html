@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jsCarousel</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/jcarousel.basic.css">
+  <link rel="stylesheet" href="css/chosen.css">
+  <link rel="stylesheet" href="css/checkbox.css">
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+  <script type="text/javascript" src="js/chosen.jquery.js"></script>
+  <script type="text/javascript" src="js/jcarousel.basic.js"></script>
+</head> 
+<body>
+    <div class="wrapper">
+	<div id="mainmenu">
+                  <ul id="menu">
+                    <li><a href="">Nav1</a></li>
+                    <li><a href="">Nav2</a></li>
+                    <li><a href="">Nav3  &nbsp;&rsaquo;</a>
+	                   <ul class="submenu">
+		                  <li><a href="">Nav3.1</a></li>
+		                  <li><a href="">Nav3.2</a></li>
+		                  <li><a href="">Nav3.3</a></li>
+		                  <li><a href="">Nav3.4&nbsp;&rsaquo;</a>
+		                     <ul class="sub_sub_menu">
+				                <li><a href="">Nav3.4.1</a></li>
+		                        <li><a href="">Nav3.4.2</a></li>
+		                        <li><a href="">Nav3.4.3</a></li></ul></li>
+		                  <li><a href="">Nav3.5</a></li>
+		               </ul>
+	                </li>
+	 	            <li><a href="">Nav4</a></li>
+		            <li><a href="">Nav5</a></li></ul>
+				</div>
+                
+              <div class="jcarousel-wrapper">
+                <div class="jcarousel">
+                    <ul>
+                        <li><a href=""><img src="img/photo.jpg" width="600" height="400" /></a></li>
+                        <li><a href=""><img src="img/x_d4667e5a.jpg"width="600" height="400"  /></a></li>
+                        <li><a href=""><img src="img/XIna5P1mjR0.jpg" width="600" height="400" /></a></li>
+                        <li><a href=""><img src="img/Y-GGBjP3-eg.jpg" width="600" height="400"/></a></li>
+						<li><a href=""><img src="img/G4RbnTEed18.jpg" width="600" height="400" /></a></li>
+                        <li><a href=""><img src="img/lGS415oPmTs.jpg" width="600" height="400" /></a></li>
+                    </ul>
+                </div>
+
+                <a href="#" class="jcarousel-control-prev">&lsaquo;</a>
+                <a href="#" class="jcarousel-control-next">&rsaquo;</a>
+                
+                <p class="jcarousel-pagination"></p>
+             </div>
+    
+               <label for="my_select"><span class="country">Экзотические страны</span></label>
+               <select id="my_select">
+					<option>Тайланд</option>
+					<option>Доминикана</option>
+					<option>Шри Ланка</option>
+				   <option>Кипр</option>
+               </select>
+			   <div class="boxshad">
+				<div class="checkbox_wrapper">
+				<p>Выберите количество дней</p>
+                    <div class="checkbox"><input type="checkbox" id="options"><label for="options">3-5</label></div>
+                    <div class="checkbox"><input type="checkbox" id="options1"><label for="options1">5-7</label></div>
+                    <div class="checkbox"><input type="checkbox" id="options2"><label for="options2">7-9</label></div>
+                    <div class="checkbox"><input type="checkbox" id="options3"><label for="options3">9-14</label></div>
+				</div>
+			   <div class="checkbox_wrapper_jq">
+				<p>Выберите количество дней</p>
+                    <div class="checkbox_jq"><span class="box"><input type="checkbox" id="options4"></span><label for="options4">3-5</label></div>
+                    <div class="checkbox_jq"><span class="box"><input type="checkbox" id="options5"></span><label for="options5">5-7</label></div>
+                    <div class="checkbox_jq"><span class="box"><input type="checkbox" id="options6"></span><label for="options6">7-9</label></div>
+                    <div class="checkbox_jq"><span class="box"><input type="checkbox" id="options7"></span><label for="options7">9-14</label></div>
+				</div>
+				</div>
+			   
+			   
+			   
+	</div>		   
+</body>
+</html>

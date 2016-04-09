@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jsCarousel</title>
+  
+  
+  
+  <style>
+ #menu{
+  ;
+  }
+ #menu li{
+ float: left;
+ positon:relative;
+ list-style:none;
+ margin:10px;
+ }
+ #menu a{
+ display:block;
+  text-decoration:none;
+ }
+ #menu ul{
+ opacity:0;
+ visibility: hidden;
+ position: absolute;
+ left:125px;
+ }
+ #menu li:hover > ul {
+ opacity:1;
+ visibility:visible;
+}
+#menu ul li {
+  float:none;
+  margin:0;
+}
+#menu ul ul {
+ left:50px;
+ top:55px;
+}
+  
+  
+  
+  
+  </style>
+</head> 
+<body>
+<div class="wrapper">
+  <ul id="menu">
+  <li><a href="">Nav1</a></li>
+  <li><a href="">Nav2</a></li>
+  <li><a href="">Nav3</a>
+	    <ul class="submenu">
+		  <li><a href="">Nav3.1</a></li>
+		  <li><a href="">Nav3.2</a></li>
+		  <li><a href="">Nav3.3</a></li>
+		  <li><a href="">Nav3.4</a>
+		        <ul class="sub_sub_menu">
+				   <li><a href="">Nav3.1.1</a></li>
+		           <li><a href="">Nav3.2.1</a></li>
+		           <li><a href="">Nav3.3.1</a></li></ul>
+		  </li>
+		  <li><a href="">Nav3.5</a></li>
+		</ul>
+	 </li>
+	 	  <li><a href="">Nav4</a></li>
+		  <li><a href="">Nav5</a></li>
+		  
+   </ul>
+
+</div>       
+			   
+</body>
+</html>
